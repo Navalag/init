@@ -1,0 +1,5 @@
+1) https://ciscolearning.ru/basics/
+
+2) https://www.thegeekstuff.com/2009/03/ifconfig-7-examples-to-configure-network-interface/
+
+3) https://ithelp.brown.edu/kb/articles/find-the-mac-address-of-a-computer-or-device#Mac
