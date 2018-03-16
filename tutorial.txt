@@ -33,9 +33,25 @@
 
 	10)https://support.rackspace.com/how-to/using-dig-to-query-nameservers/
 
-08:
+08, 09:
 
+	man whois
+	man dig
+	man host
 
-#dig slash16.org | grep "slash16" | sed "1, 10d"
-whois slash16.org | grep "Name Server"
+10, 11:
 
+	man traceroute
+
+12:
+	man ping
+13:
+	man nslookup
+	google: server type
+	https://www.webopedia.com/quick_ref/servers.asp
+
+14:
+	man host
+	man dig
+15, 16:
+	google: file hosts
