@@ -1,5 +1,41 @@
-1) https://ciscolearning.ru/basics/
+	1) https://ciscolearning.ru/basics/ (Very usefull source for this project!! It's worth spend some time to read all the information over there)
 
-2) https://www.thegeekstuff.com/2009/03/ifconfig-7-examples-to-configure-network-interface/
+01 - 03:
 
-3) https://ithelp.brown.edu/kb/articles/find-the-mac-address-of-a-computer-or-device#Mac
+	man ifconfig
+
+	2) https://www.thegeekstuff.com/2009/03/ifconfig-7-examples-to-configure-network-interface/
+	3) https://ithelp.brown.edu/kb/articles/find-the-mac-address-of-a-computer-or-device#Mac
+
+04:
+
+	man netstat
+
+	4) https://www.unh.edu/it/kb/article/how-to-route-print-mac-os-x.html
+	5) https://www.lifewire.com/how-to-find-your-default-gateway-ip-address-2626072
+
+05:
+???
+	man nslookup
+	man dig
+
+	6) http://osxdaily.com/2010/06/01/how-to-find-a-websites-ip-address/
+	7) https://adminvps.ru/blog/dns-server-chto-ehto-i-kak-rabotaet/
+
+06:
+
+	8) https://www.cyberciti.biz/faq/how-to-look-up-dns-on-a-linux-and-unix-systems/
+	9) google: nameserver unix
+
+07:
+???
+	man dig
+
+	10)https://support.rackspace.com/how-to/using-dig-to-query-nameservers/
+
+08:
+
+
+#dig slash16.org | grep "slash16" | sed "1, 10d"
+whois slash16.org | grep "Name Server"
+
