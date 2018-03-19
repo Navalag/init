@@ -55,3 +55,24 @@
 	man dig
 15, 16:
 	google: file hosts
+
+SYSTEM
+
+	First download Debian instaliator from following link:
+	https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/
+
+02, 03:
+	https://www.cyberciti.biz/faq/debian-change-hostname-permanently/
+	https://www.cyberciti.biz/faq/ubuntu-change-hostname-command/
+
+04:
+	https://www.cyberciti.biz/tips/linux-last-reboot-time-and-date-find-out.html
+
+05, 06:
+	https://www.cyberciti.biz/faq/debian-linux-install-openssh-sshd-server/
+
+08:
+	https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server
+
+09:
+	https://www.thegeekstuff.com/2009/03/4-ways-to-identify-who-is-logged-in-on-your-linux-system
