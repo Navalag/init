@@ -1,0 +1,2 @@
+# jobs -p to find see background processes
+kill PID

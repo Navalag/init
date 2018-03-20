@@ -76,3 +76,25 @@ SYSTEM
 
 09:
 	https://www.thegeekstuff.com/2009/03/4-ways-to-identify-who-is-logged-in-on-your-linux-system
+
+10:
+	http://www.lostsaloon.com/technology/how-to-list-disk-partitions-in-linux-from-command-line/
+
+11:
+	https://www.cyberciti.biz/faq/linux-command-space-left-on-hard-disk-drive/
+
+12:
+	https://unix.stackexchange.com/questions/185764/how-do-i-get-the-size-of-a-directory-on-the-command-line
+
+13:
+	https://www.cyberciti.biz/faq/show-all-running-processes-in-linux/
+
+14, 15:
+	https://www.cyberciti.biz/faq/linux-command-line-run-in-background/
+
+16:
+	https://debian-handbook.info/browse/stable/sect.task-scheduling-cron-atd.html
+	https://www.howtogeek.com/101288/how-to-schedule-tasks-on-linux-an-introduction-to-crontab-files/
+
+17:
+	
