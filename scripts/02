@@ -1,0 +1,5 @@
+#!/bin/bash
+#at 0 4 * * 1 <<!
+sudo touch /var/log/update_script.log
+update=$(sudo apt-get update && sudo  apt-get upgrade)
+echo "$update" | sudo tee -a /var/log/update_script.log

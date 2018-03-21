@@ -1,5 +1,7 @@
 	1) https://ciscolearning.ru/basics/ (Very usefull source for this project!! It's worth spend some time to read all the information over there)
 
+NETWORK
+
 01 - 03:
 
 	man ifconfig
@@ -101,3 +103,22 @@ SYSTEM
 	https://wiki.debian.org/DebianFirewall
 	https://www.garron.me/en/bits/iptables-open-port-for-specific-ip.html
 
+
+SCRIPTS
+
+01:
+	book: OS_UNIX_RUS.pdf (please find attached in root directory) p.52
+
+02:
+#!/bin/bash
+apt-get update &> /var/log/update_script.log
+apt-get upgrade -y &> /var/log/update_script.log
+
+# Add this on crontab -e :
+# 0 4 * * 1 /path/to/file
+
+
+crontab -l > cronfile
+echo "0 4 * * 0 apt-get update >> /var/log/update_script.log && apt-get upgrade >> /var/log/update_script.log" >> cronfile
+crontab cronfile
+rm cronfile
