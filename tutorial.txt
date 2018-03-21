@@ -96,5 +96,8 @@ SYSTEM
 	https://debian-handbook.info/browse/stable/sect.task-scheduling-cron-atd.html
 	https://www.howtogeek.com/101288/how-to-schedule-tasks-on-linux-an-introduction-to-crontab-files/
 
-17:
-	
+17, 18, 19:
+	https://www.cyberciti.biz/faq/howto-display-linux-iptables-loaded-rules/
+	https://wiki.debian.org/DebianFirewall
+	https://www.garron.me/en/bits/iptables-open-port-for-specific-ip.html
+
