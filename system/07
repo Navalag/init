@@ -1,2 +1,8 @@
+# first necessary to install ssh:
+# sudo apt-get install openssh-server
+# than restart:
+# sudo service ssh restart
+# OR
+# sudo systemctl restart ssh
+#
 cat /var/run/sshd.pid
-pgrep sshd

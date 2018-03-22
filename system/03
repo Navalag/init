@@ -1,5 +1,5 @@
-Make appropriate changes in:
-/etc/hostname
-and if necessary in:
-/etc/hosts
-Sometimes changes come into action after system reboot.
+# Make appropriate changes in:
+# /etc/hostname
+# and if necessary in:
+# /etc/hosts
+# Sometimes changes come into action after system reboot.

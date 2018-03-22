@@ -1,1 +1,1 @@
-who | cut -d' ' -f1 | sort | uniq
+who | cut -d ' ' -f1 | sort | uniq

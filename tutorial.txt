@@ -73,6 +73,10 @@ SYSTEM
 05, 06:
 	https://www.cyberciti.biz/faq/debian-linux-install-openssh-sshd-server/
 
+07:
+	https://www.cyberciti.biz/faq/debian-linux-install-openssh-sshd-server/
+	https://www.cyberciti.biz/faq/howto-restart-ssh/
+
 08:
 	https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server
 
@@ -111,6 +115,9 @@ SCRIPTS
 
 02:
 	https://stackoverflow.com/questions/1802337/how-to-install-croncron
+
+04:
+	https://tecadmin.net/ways-to-send-email-from-linux-command-line/
 
 
 #!/bin/bash
