@@ -110,6 +110,9 @@ SCRIPTS
 	book: OS_UNIX_RUS.pdf (please find attached in root directory) p.52
 
 02:
+	https://stackoverflow.com/questions/1802337/how-to-install-croncron
+
+
 #!/bin/bash
 apt-get update &> /var/log/update_script.log
 apt-get upgrade -y &> /var/log/update_script.log
@@ -149,4 +152,30 @@ echo "0 0 * * * \
 		echo '/etc/crontab modifier le \$(date)' | mail -s '/etc/crontab modifier' root ; fi" >> cronfile
 crontab cronfile
 rm cronfile
+
+
+mail -s "subject" andrii.galavan@gmail.com
+# than mail body
+# ctrl+d to send
+
+
+#!/bin/bash
+crontab -l > cwork
+echo "0 4 * * 0 apt-get update >> /var/log/update_script.log && apt-get upgrade >> /var/log/update_script.log" >> cwork
+crontab cwork
+rm cwork
+
+
+#!/bin/bash
+crontab -l > cronwork
+echo "0 0 * * * \
+    md5_1=\"\$(md5sum /etc/crontab | awk '{ print \$1 }')\" && \
+    md5_2=\"\$(cat /etc/crontab.log)\" && \
+    if [ '\$md5_1' != '\$md5_2' ] ; \
+    then \
+        md5sum /etc/crontab | awk '{ print \$1 }' > /etc/crontab.log && \
+        echo '/etc/crontab modifier le \$(date)' | mail -s '/etc/crontab modifier' root ; \
+    fi" >> cronwork
+crontab cronwork
+rm cronwork
 

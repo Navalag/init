@@ -1,5 +1,16 @@
 #!/bin/bash
-#at 0 4 * * 1 <<!
-sudo touch /var/log/update_script.log
-update=$(sudo apt-get update && sudo  apt-get upgrade)
-echo "$update" | sudo tee -a /var/log/update_script.log
+#
+# you can create a crontab for your current user by typing:
+# crontab -e
+# If this command fails, it's likely that cron is not installed. 
+# If you use a Debian based system (Debian, Ubuntu), try the following commands first:
+# sudo apt-get update
+# sudo apt-get install cron
+#
+# after above manipulations type next commands:
+#
+crontab -l > track_file
+echo "0 4 * * 0 apt-get update >> /var/log/update_script.log && \
+		apt-get upgrade >> /var/log/update_script.log" >> track_file
+crontab track_file
+rm track_file
