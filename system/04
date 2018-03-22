@@ -1,1 +1,3 @@
-last reboot | head -1
+uptime
+# uptime -s
+# w
