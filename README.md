@@ -8,10 +8,10 @@ The aim of this project is to discover system and network basic commands, many o
 
 ### Useful links:
 
-- Please find more information about this subject [here](https://github.com/Navalag/init/init.en.pdf).
+- Please find more information about this subject [here](https://github.com/Navalag/init/blob/master/init.en.pdf).
 
-- Also you can check my [tutorial](https://github.com/Navalag/init/tutorial.txt).
+- Also you can check my [tutorial](https://github.com/Navalag/init/blob/master/tutorial.txt).
 
 - [Cisco network course](https://ciscolearning.ru/basics/).
 
-- [UNIX OS](https://github.com/Navalag/init/OS_UNIX_RUS.pdf) - good book that explains unix fundamentals.
+- [UNIX OS](https://github.com/Navalag/init/blob/master/OS_UNIX_RUS.pdf) - good book that explains unix fundamentals.
