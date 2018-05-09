@@ -1,66 +1,52 @@
-	1) https://ciscolearning.ru/basics/ (Very usefull source for this project!! It's worth spend some time to read all the information over there)
+	https://ciscolearning.ru/basics/ (Very usefull source for this project!! It's worth spend some time to read all the information over there)
 
 NETWORK
 
 01 - 03:
-
 	man ifconfig
 
-	2) https://www.thegeekstuff.com/2009/03/ifconfig-7-examples-to-configure-network-interface/
-	3) https://ithelp.brown.edu/kb/articles/find-the-mac-address-of-a-computer-or-device#Mac
-
+	https://www.thegeekstuff.com/2009/03/ifconfig-7-examples-to-configure-network-interface/
+	https://ithelp.brown.edu/kb/articles/find-the-mac-address-of-a-computer-or-device#Mac
 04:
-
 	man netstat
 
-	4) https://www.unh.edu/it/kb/article/how-to-route-print-mac-os-x.html
-	5) https://www.lifewire.com/how-to-find-your-default-gateway-ip-address-2626072
-
+	https://www.unh.edu/it/kb/article/how-to-route-print-mac-os-x.html
+	https://www.lifewire.com/how-to-find-your-default-gateway-ip-address-2626072
 05:
-???
 	man nslookup
 	man dig
 
-	6) http://osxdaily.com/2010/06/01/how-to-find-a-websites-ip-address/
-	7) https://adminvps.ru/blog/dns-server-chto-ehto-i-kak-rabotaet/
-
+	http://osxdaily.com/2010/06/01/how-to-find-a-websites-ip-address/
+	https://adminvps.ru/blog/dns-server-chto-ehto-i-kak-rabotaet/
 06:
-
-	8) https://www.cyberciti.biz/faq/how-to-look-up-dns-on-a-linux-and-unix-systems/
-	9) google: nameserver unix
-
+	https://www.cyberciti.biz/faq/how-to-look-up-dns-on-a-linux-and-unix-systems/
+	google: nameserver unix
 07:
-???
 	man dig
 
-	10)https://support.rackspace.com/how-to/using-dig-to-query-nameservers/
-
+	https://support.rackspace.com/how-to/using-dig-to-query-nameservers/
 08, 09:
-
 	man whois
 	man dig
 	man host
-
 10, 11:
-
 	man traceroute
-
 12:
 	man ping
 13:
 	man nslookup
 	google: server type
 	https://www.webopedia.com/quick_ref/servers.asp
-
 14:
 	man host
 	man dig
 15, 16:
 	google: file hosts
 
+
 SYSTEM
 
-	First download Debian instaliator from following link:
+	First download Debian instaliator, use following link:
 	https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/
 
 02, 03:
