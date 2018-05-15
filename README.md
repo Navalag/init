@@ -8,7 +8,7 @@ The aim of this project is to discover system and network basic commands, many o
 
 ### Useful links:
 
-- Please find more information about this subject [here](https://github.com/Navalag/init/blob/master/init.en.pdf).
+- Please find more information about this project [here](https://github.com/Navalag/init/blob/master/init.en.pdf).
 
 - Also you can check my [tutorial](https://github.com/Navalag/init/blob/master/tutorial.txt).
 
